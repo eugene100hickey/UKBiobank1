@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+author: "Eugene"
+date: "10/02/2022"
+output: html_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(rsnps)
+```
+
+
+
+## First SNP
+
+```{r}
+rsnps::ncbi_snp_query("rs2456973")
+```
+
+
+
+## References
+
+
